@@ -36,7 +36,7 @@ public class AppTest
         int result = Calc.add(1,2);
         assertEquals(3,result);
         
-        int result2 = Calc.Subtract(1, 2);
-        assertEquals(3,result2);
+        int result2 = Calc.Subtract(2,1);
+        assertEquals(1,result2);
     }
 }
